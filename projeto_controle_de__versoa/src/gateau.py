@@ -17,4 +17,4 @@ class Gateau:
 
     def fritar(self, tempo):
         self.tempo_cuissao = tempo
-        return f"Gâteau pronto até {self.temps_cuisson} minutos."
+        return f"Gâteau pronto até {self.temps_cuisson} ."
