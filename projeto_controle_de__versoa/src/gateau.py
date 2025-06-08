@@ -12,5 +12,9 @@ class Gateau:
         return "Misturar ingrediente : " + ", ".join(self.ingredients)
 
     def cozinhar(self, tempo):
-        self.temps_cuisson = tempo
+        self.temps_cuisson = tempo #aqui está errado
+        return f"Gâteau pronto até {self.temps_cuisson} minutos."
+
+    def fritar(self, tempo):
+        self.tempo_cuissao = tempo
         return f"Gâteau pronto até {self.temps_cuisson} minutos."
